@@ -1,7 +1,7 @@
 import java.util.Arrays;
 public class Insertion {
     public static void main(String[] args) {
-        int[] arr={5,3,1,2,4};
+        int[] arr={5,3,1,2,4,-7,9};
         insertion(arr);
         System.out.println(Arrays.toString(arr));
     }
