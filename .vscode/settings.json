@@ -1,7 +1,13 @@
 {
     "java.project.sourcePaths": [
         "Sorting",
+        "Recursion/Subsets",
+        "Recursion/Strings",
+        "Recursion/Patterns",
+        "Recursion/Easy",
+        "Recursion/Array",
+        "Patterns",
         "BasicMaths",
-        "Patterns"
+        "LinkedList"
     ]
 }
