@@ -5,17 +5,20 @@ public class Singly {
         LinkedList list=new LinkedList();
         list.insertFirst(10);
         list.insertLast(20);
-        list.display();
+        list.display();     //10->20->END
         list.insertFirst(3);
         list.insertLast(7);
-        list.display();
+        list.display();     //3->10->20->7->END
         list.insert(55, 1);
-        list.display();
-        System.out.println("Deleted First:"+list.deleteFirst());
-        System.out.println("Deleted Last:"+list.deleteLast());
-        list.display();
-        System.out.println(list.delete(2));
-        System.out.println(list.findNode(55));
+        list.insert(27, 2);
+        list.display();     //3->55->27->10->20->7->END
+        System.out.println("Deleted First:"+list.deleteFirst());        //Deleted First:3
+        System.out.println("Deleted Last:"+list.deleteLast());          //Deleted Last:7
+        list.display();     //55->27->20->END
+        System.out.println("Deleted at index 2:"+list.delete(2));       //Deleted at index 2:10
+        list.display();     //55->27->20->END
+        System.out.println("Deleted:"+list.deleteByValue(27));      //Deleted:27
+        list.display();     //55->20->END
     }
 }
 
@@ -93,7 +96,7 @@ class LinkedList {
             System.out.print(temp.value+"->");
             temp=temp.next;
         }
-        System.err.println("END");
+        System.out.println("END");
     }
 
     public int deleteFirst(){
@@ -101,12 +104,19 @@ class LinkedList {
             throw new NoSuchElementException("Cannot delete from an empty list");
         }
         int deletedValue=head.value;
-        head=head.next;
+        if(head==tail){
+            head=tail=null;
+        }else{
+            head=head.next;
+        }
         size--;
         return deletedValue;
     }
 
     public Node get(int index){
+        if (index < 0 || index >= size) {
+            throw new IndexOutOfBoundsException("Index: " + index + ", Size: " + size);
+        }
         Node node=head;
         for(int i=0;i<index;i++){
             node=node.next;
@@ -157,5 +167,26 @@ class LinkedList {
             node=node.next;
         }
         return null;
+    }
+    
+    public int deleteByValue(int value){
+        Node node=findNode(value);
+        if(node==null){
+            throw new NoSuchElementException("Element not found.");
+        }
+        if(node==head){
+            return deleteFirst();
+        }
+        if(node==tail){
+            return deleteLast();
+        }
+        Node prev=head;
+        while(prev.next!=node){
+            prev=prev.next;
+        }
+        prev.next=node.next;
+        int deletedValue=node.value;
+        size--;
+        return deletedValue;
     }
 }
