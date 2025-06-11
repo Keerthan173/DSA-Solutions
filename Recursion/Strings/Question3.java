@@ -1,3 +1,4 @@
+// Return string with all occurrences of "app" removed, except when the word starts with "apple".
 public class Question3 {
     public static void main(String[] args) {
         System.out.println(skipAppNotApple("xyzapp123applek"));         //xyz123applek
