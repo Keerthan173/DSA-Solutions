@@ -1,4 +1,4 @@
-// Generate All Permutations of a String Using Recursion
+// Return all Permutations of a String Using Recursion
 
 package Permutations;
 
