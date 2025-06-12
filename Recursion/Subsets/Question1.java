@@ -1,3 +1,4 @@
+// Print All Subsequences (Subsets) of a String Using Recursion.
 public class Question1 {
     public static void main(String[] args) {
         myFunc("", "abc");
@@ -12,3 +13,13 @@ public class Question1 {
         myFunc(processed, unprocessed.substring(1));
     }
 }
+
+// Output:
+// abc
+// ab
+// ac
+// a
+// bc
+// b
+// c
+// (empty string)
