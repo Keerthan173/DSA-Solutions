@@ -5,8 +5,11 @@ public class Doubly {
         list.insertLast(2);
         list.display();     //1->2->END
         list.displayReverse();      //END<-2<-1
-        list.insert(2, 7);      
+        list.insertAfterValue(2, 7);      
         list.display();     //1->2->7->END
+        list.insert(333, 1);
+        list.display();     // 1->333->2->7->END
+
     }
     
 }
@@ -27,6 +30,7 @@ class DLL {
     }
 
     private Node head;
+    private int size;
     
     public void insertFirst(int val){
         Node node = new Node(val);
@@ -36,6 +40,7 @@ class DLL {
             head.prev=node;
         }
         head=node;
+        size++;
     }
 
     public void insertLast(int val){
@@ -44,16 +49,49 @@ class DLL {
         if(head==null){
             node.prev=null;
             head=node;
-            return;
         }
-        Node last=head;
-        while(last.next!=null){
-            last=last.next;
+        else{
+            Node last=head;
+            while(last.next!=null){
+                last=last.next;
+            }
+            last.next=node;
+            node.prev=last;
         }
-        last.next=node;
-        node.prev=last;
+        size++;
     }
 
+    public Node get(int index){
+        if (index < 0 || index >= size) {
+            throw new IndexOutOfBoundsException("Invalid index");
+        }
+        Node temp=head;
+        for(int i=0;i<index;i++){
+            temp=temp.next;
+        }
+        return temp;
+    }
+    public void insert(int val,int index){
+        if(index==0){
+            insertFirst(val);
+            return;
+        }
+        if(index==size){
+            insertLast(val);
+            return;
+        }
+        Node before=get(index-1);
+        Node after=get(index);
+        Node node=new Node(val);
+
+        before.next=node;
+        node.prev=before;
+        after.prev=node;
+        node.next=after;
+
+        size++;
+    }
+    
     //Insert after the given element
     public Node find(int value){
         Node node=head;
@@ -65,8 +103,7 @@ class DLL {
         }
         return null;
     }
-
-    public void insert(int after,int val){
+    public void insertAfterValue(int after,int val){
         Node p=find(after);
         if(p==null){
             System.out.println("Does not exist.");
@@ -79,6 +116,7 @@ class DLL {
         if(node.next!=null){
             node.next.prev=node;
         }
+        size++;
     }
 
     public void display(){

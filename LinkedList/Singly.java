@@ -2,16 +2,20 @@ import java.util.NoSuchElementException;
 
 public class Singly {
     public static void main(String[] args) {
+
         LinkedList list=new LinkedList();
+
         list.insertFirst(10);
         list.insertLast(20);
         list.display();     //10->20->END
+        System.out.println(list.length());      // 2
         list.insertFirst(3);
         list.insertLast(7);
         list.display();     //3->10->20->7->END
         list.insert(55, 1);
         list.insert(27, 2);
         list.display();     //3->55->27->10->20->7->END
+
         System.out.println("Deleted First:"+list.deleteFirst());        //Deleted First:3
         System.out.println("Deleted Last:"+list.deleteLast());          //Deleted Last:7
         list.display();     //55->27->20->END
@@ -97,6 +101,10 @@ class LinkedList {
             temp=temp.next;
         }
         System.out.println("END");
+    }
+
+    public int length(){
+        return size;
     }
 
     public int deleteFirst(){
@@ -189,4 +197,5 @@ class LinkedList {
         size--;
         return deletedValue;
     }
+
 }
