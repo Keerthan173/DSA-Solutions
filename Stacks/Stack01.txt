@@ -1,0 +1,39 @@
+1. Basic Structure
+
+| Feature        | Array                            | Linked List                   | Stack                                         |
+| -------------- | -------------------------------- | ----------------------------- | --------------------------------------------- |
+| Type           | Linear data structure            | Linear data structure         | Abstract data type                            |
+| Implementation | Fixed-size indexed collection    | Nodes connected with pointers | Can be implemented using array or linked list |
+| Access Method  | Direct via index (random access) | Sequential (node-by-node)     | LIFO (Last-In, First-Out)                     |
+
+
+
+2. Operations & Performance
+
+| Operation       | Array                      | Linked List               | Stack                          |
+| --------------- | ------------------------   | ------------------------  | -----------------------------  |
+| Access          | 🔼 Fast (`O(1)`)          | 🔽 Slow (`O(n)`)         | ❌ Not meant for random access |
+| Insert (End)    | 🔼 Fast (`O(1)`) if space | 🔼 Fast (`O(1)`)         | 🔼 Fast (`O(1)`)               |
+| Insert (Middle) | 🔽 Slow (`O(n)`)          | 🔼 Moderate (`O(n)`)     | ❌ Not applicable              |
+| Delete (End)    | 🔼 Fast (`O(1)`)          | 🔼 Fast (`O(1)`) if tail | 🔼 Fast (`O(1)`) (pop)         |
+| Memory Usage    | Fixed                      | Dynamic (more flexible)   | Depends on implementation      |
+
+
+
+❓ What if we want to get an element in the middle of a Stack?
+Stacks are LIFO → You can only access the top element.
+To get an element in the middle or bottom, you must:
+    Pop all elements above it (store them temporarily).
+    Access the required element.
+    Push back the popped elements.
+
+💡 So is the space complexity O(n)?
+Yes, in that case:
+    If you store popped elements (e.g., in a temporary stack), it takes O(n) space in the worst case.
+    Time complexity is also O(n) since you may touch all n elements.
+
+❓ Then why do we even use a Stack?
+Because most stack problems never need random access. Instead, they require:
+    Accessing only the top (constant time).
+    Tracking order of nested/last-used elements.
+    
