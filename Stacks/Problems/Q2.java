@@ -48,3 +48,7 @@ public class Q2 {
 
 // Enter the bracket string: (()))(
 // Minimum brackets to remove = 2
+
+// Enter the bracket string: ()
+// Minimum brackets to remove = 0
+
