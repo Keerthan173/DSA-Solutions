@@ -1,0 +1,21 @@
+What is a Min Stack?
+A Min Stack is a special kind of stack that supports all regular stack operations like:
+    push(x)
+    pop()
+    top() or peek()
+    plus one extra operation:
+        getMin() → returns the minimum element in the stack in constant time O(1).
+
+
+
+❓ Why Do We Need a Min Stack?
+In a normal stack, if you want to find the minimum element:
+You would have to traverse the entire stack → takes O(n) time.
+
+A Min Stack allows:
+Getting the minimum element in O(1) time.
+
+This is useful when you need to track minimums efficiently, especially in problems involving:
+    Dynamic minimums
+    Sliding window minimums
+    Real-time stock prices, etc.
