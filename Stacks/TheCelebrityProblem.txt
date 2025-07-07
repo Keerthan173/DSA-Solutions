@@ -1,0 +1,45 @@
+GeeksforGeeks - The Celebrity problem
+https://www.geeksforgeeks.org/problems/the-celebrity-problem/1
+A celebrity is someone who is known by everyone but doesn't know anyone (except themselves).
+
+class Solution {
+    public int celebrity(int mat[][]) {
+        Stack<Integer> stack = new Stack<>();
+        
+        // Pushing all people onto the stack
+        for(int i=0;i<mat.length;i++){
+            stack.push(i);
+        }
+        
+        // Removing non-celebrities
+        while(stack.size() > 1){
+            int a = stack.pop();
+            int b = stack.pop();
+            
+            if(mat[a][b]==1){
+                stack.push(b);     // a knows b, so a is not a celebrity
+            }
+            else if(mat[b][a]==1){
+                stack.push(a);     // b knows a, so b is not a celebrity
+            }
+        }
+        
+        // If stack is empty, then no celebrity is remaining
+        if(stack.isEmpty()) return -1;
+        
+        // Checking whether the person remaining is celebrity or not
+        int potential = stack.pop();
+        
+        // Everyone should know the potential celebrity
+        for(int i=0;i<mat.length;i++){
+            if(mat[i][potential] != 1)    return -1;
+        }
+        
+        // Celebrity should know no one
+        for(int j=0;j<mat.length;j++){
+            if(j==potential)    continue;
+            if(mat[potential][j]!= 0)    return -1;
+        }
+        return potential;
+    }
+}
