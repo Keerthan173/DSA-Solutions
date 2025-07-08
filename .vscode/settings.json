@@ -1,5 +1,6 @@
 {
     "java.project.sourcePaths": [
+        "Stacks",
         "Sorting",
         "Recursion/Subsets",
         "Recursion/Strings",
@@ -9,6 +10,6 @@
         "Patterns",
         "LinkedList",
         "BasicMaths",
-        "Stacks"
+        "Queues"
     ]
 }
