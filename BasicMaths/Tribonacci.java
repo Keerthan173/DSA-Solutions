@@ -4,7 +4,7 @@
 // T(0)=0,T(1)=1,T(2)=1
 public class Tribonacci {
     public static void main(String[] args) {
-        Solution solution = new Solution();
+        Solution2 solution = new Solution2();
 
         // Test cases
         int[] testCases = {0, 1, 2, 5, 10, 15};
@@ -15,7 +15,7 @@ public class Tribonacci {
     }
 }
 
-class Solution {
+class Solution2 {
     public int tribonacci(int n) {
         if (n < 2) {
             return n; // Base case: Tribonacci(0) = 0, Tribonacci(1) = 1

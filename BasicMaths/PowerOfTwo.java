@@ -1,7 +1,7 @@
 //Given an integer n, return true if it is a power of two. Otherwise, return false.
 public class PowerOfTwo {
     public static void main(String[] args) {
-        Solution solution = new Solution();
+        Solution1 solution = new Solution1();
         
         // Test cases
         int[] testCases = {1, 2, 16, 18, 32, 64, 100};
@@ -13,7 +13,7 @@ public class PowerOfTwo {
 }
 
 //Method 1 :
-class Solution {
+class Solution1 {
     public boolean isPowerOfTwo(int n) {
         if (n < 1) {
             return false; // Any number less than 1 is not a power of two
