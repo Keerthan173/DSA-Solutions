@@ -1,0 +1,28 @@
+Flattening a binary tree to a linked list (Leetcode 114)
+https://leetcode.com/problems/flatten-binary-tree-to-linked-list/
+
+
+public void flatten(TreeNode root) {
+    if(root == null)    return;
+
+    Stack<TreeNode> stack = new Stack<>();
+    stack.push(root);
+    
+    while(stack.size()>0){
+        TreeNode cur = stack.pop();
+
+        // Push right child first so that left is processed first
+        if(cur.right!=null){
+            stack.push(cur.right);
+        }
+        if(cur.left!=null){
+            stack.push(cur.left);
+        }
+
+        // Point current node's right to the top of the stack
+        if(stack.size()>0){
+            cur.right = stack.peek();
+        }
+        cur.left = null; // Remove left pointer
+    }
+}

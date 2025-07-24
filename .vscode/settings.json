@@ -1,5 +1,6 @@
 {
     "java.project.sourcePaths": [
+        "Strings",
         "Stacks",
         "Sorting",
         "Recursion/Subsets",
@@ -10,7 +11,8 @@
         "Queues",
         "Patterns",
         "LinkedList",
+        "Binary_Trees",
         "BasicMaths",
-        "Strings"
+        "Binary_Search"
     ]
 }
