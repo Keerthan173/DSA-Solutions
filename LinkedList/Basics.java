@@ -1,4 +1,4 @@
-class Basics {
+class LLBasics {
     public static class Node{
         int data;
         Node next;

@@ -3,7 +3,7 @@
 import java.util.LinkedList;
 import java.util.Queue;
 
-class File01_Basics {
+class File01_QueueBasics {
     public static void main(String[] args) {
         // Queue<Integer> q = new Queue<>();  // ❌ Error: Queue is an interface and cannot be instantiated
 

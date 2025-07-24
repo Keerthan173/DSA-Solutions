@@ -1,5 +1,5 @@
 // Right-Angled Triangle (Left-Aligned)
-class P2 {
+class P2Patterns {
     public static void main(String[] args) {
         pattern2(4);
     }

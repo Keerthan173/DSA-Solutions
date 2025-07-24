@@ -1,5 +1,5 @@
 // Square
-class P1 {
+class P1Patterns {
     public static void main(String[] args) {
         pattern1(4);
     }

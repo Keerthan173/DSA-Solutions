@@ -1,5 +1,5 @@
 // Skip string "apple"
-class Question2 {
+class Question2String {
     public static void main(String[] args) {
         System.out.println(skipApple("abcapplexyzappk"));       //abcxyzappk
     }

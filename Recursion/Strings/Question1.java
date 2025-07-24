@@ -1,5 +1,5 @@
 // Skip character 'a'
-class Question1 {
+class Question1String {
     public static void main(String[] args) {
         skipA("", "abcabaakak");        //bcbkk
 
