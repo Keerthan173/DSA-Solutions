@@ -1,0 +1,90 @@
+1. Breadth first search: https://www.geeksforgeeks.org/problems/bfs-traversal-of-graph/1
+
+2. Depth first search: https://www.geeksforgeeks.org/problems/depth-first-traversal-for-a-graph/1
+
+3. Number of Provinces: https://leetcode.com/problems/number-of-provinces/
+
+4. Rotten Oranges: https://leetcode.com/problems/rotting-oranges/
+
+5. Undirected Graph Cycle detection: https://www.geeksforgeeks.org/problems/detect-cycle-in-an-undirected-graph/1
+
+6. Find the number of islands: https://www.geeksforgeeks.org/problems/find-the-number-of-islands/1
+
+7. Flood fill Alogrithm: https://www.geeksforgeeks.org/problems/flood-fill-algorithm1856/1
+
+8. Distance of nearest cell having 1: https://www.geeksforgeeks.org/problems/distance-of-nearest-cell-having-1-1587115620/1
+
+9. Number of enclaves: https://www.geeksforgeeks.org/problems/number-of-enclaves/1
+
+10. Surrounded region: https://www.geeksforgeeks.org/problems/replace-os-with-xs0052/1
+
+11. Number of distinct islands: https://www.geeksforgeeks.org/problems/number-of-distinct-islands/1
+
+12. Bipartite graph: https://www.geeksforgeeks.org/problems/bipartite-graph/1
+
+13. Detect cycle in a directed-graph: https://www.geeksforgeeks.org/problems/detect-cycle-in-a-directed-graph/1
+
+14. Topological sort (DFS): https://www.geeksforgeeks.org/problems/topological-sort/1
+
+15. Kahn's Algorithm - Topological sort (BFS): https://www.naukri.com/code360/problems/topological-sort_982938?
+
+16. Detect Cycle In A Directed Graph: (Kahn's Algorithm) https://www.naukri.com/code360/problems/detect-cycle-in-a-directed-graph_1062626?
+
+17. Course Schedule: https://leetcode.com/problems/course-schedule/submissions/1726249016/?envType=problem-list-v2&envId=topological-sort
+
+18. Course Schedule II: https://leetcode.com/problems/course-schedule-ii/description/?envType=problem-list-v2&envId=topological-sort
+
+19. Find Eventual Safe States: https://leetcode.com/problems/find-eventual-safe-states/
+
+20. Alien dictionary: https://www.naukri.com/code360/problems/alien-dictionary_630423
+
+21. Shortest path in Directed Acyclic Graph: https://www.geeksforgeeks.org/problems/shortest-path-in-undirected-graph/1
+
+22. Shortest Path in Undirected Graph: https://www.geeksforgeeks.org/problems/shortest-path-in-undirected-graph-having-unit-distance/1
+
+23. Dijkstra Algorithm(Priority Queue): https://www.geeksforgeeks.org/problems/implementing-dijkstra-set-1-adjacency-matrix/1
+
+24. Shortest Path in Weighted undirected graph: https://www.geeksforgeeks.org/problems/shortest-path-in-weighted-undirected-graph/1
+
+25. Shortest Distance in a Binary Maze: https://www.geeksforgeeks.org/problems/shortest-path-in-a-binary-maze-1655453161/1
+
+26. Path With Minimum Effort: https://www.geeksforgeeks.org/problems/path-with-minimum-effort/1
+
+27. Cheapest Flights Within K Stops: https://www.geeksforgeeks.org/problems/cheapest-flights-within-k-stops/1
+
+28. Minimum Multiplications to reach End: https://www.geeksforgeeks.org/problems/minimum-multiplications-to-reach-end/1
+
+29. Number of Ways to Arrive at Destination: https://leetcode.com/problems/number-of-ways-to-arrive-at-destination/description/
+
+30. Bellman-Ford: https://www.geeksforgeeks.org/problems/distance-from-the-source-bellman-ford-algorithm/1
+
+31. Floyd Warshall: https://www.geeksforgeeks.org/problems/implementing-floyd-warshall2042/1
+
+32. Find the City With the Smallest Number of Neighbors at a Threshold Distance(Floyd Warshall- TC:N^3): https://leetcode.com/problems/find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/description/
+
+33. City With the Smallest Number of Neighbors at a Threshold Distance(Dijkstra- TC:V * E * log V): https://www.geeksforgeeks.org/problems/city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/0
+
+34. Minimum Spanning Tree(Prim's Algorithm): https://www.geeksforgeeks.org/problems/minimum-spanning-tree/1
+
+35. Minimum Spanning Tree(Prim's Algorithm): https://www.geeksforgeeks.org/problems/minimum-spanning-tree/1
+
+36. Kruskal’s Minimum Spanning Tree Algorithm: https://www.naukri.com/code360/problems/kruskal-s-minimum-spanning-tree-algorithm_1082553
+
+37. Number of Provinces(By using DisJoinSet): https://www.geeksforgeeks.org/problems/number-of-provinces/1
+
+38. Number of Operations to Make Network Connected: https://leetcode.com/problems/number-of-operations-to-make-network-connected/
+
+39. Accounts Merge: https://leetcode.com/problems/accounts-merge/
+
+40. Number Of Islands 2: https://www.geeksforgeeks.org/problems/number-of-islands/1
+
+41. Making A Large Island: https://www.geeksforgeeks.org/problems/making-a-large-island/1
+
+42. Maximum Stone Removal: https://www.geeksforgeeks.org/problems/maximum-stone-removal-1662179442/0
+
+43. Strongly Connected: https://www.geeksforgeeks.org/problems/strongly-connected-components-kosarajus-algo/1
+
+44. Bridges(Tarjan's alogorithm): https://leetcode.com/problems/critical-connections-in-a-network/
+
+45. Articulation Point: https://www.geeksforgeeks.org/problems/articulation-point-1/1
+
