@@ -1,0 +1,33 @@
+1. Largest Element in Array: https://www.geeksforgeeks.org/problems/largest-element-in-array4009/1
+
+2. Second Largest: https://www.geeksforgeeks.org/problems/second-largest3735/1 (Brute, Optimal)
+
+3. Check if array is sorted: https://www.geeksforgeeks.org/problems/check-if-an-array-is-sorted0701/1
+
+4. Remove Duplicates Sorted Array: https://www.geeksforgeeks.org/problems/remove-duplicate-elements-from-sorted-array/1 (Brute, Optimal)
+
+5. Left Rotate an Array by One: https://www.naukri.com/code360/problems/left-rotate-an-array-by-one_5026278
+
+6. Rotate Array: https://www.geeksforgeeks.org/problems/rotate-array-by-n-elements-1587115621/1 (Brute, Optimal)
+
+7. Move All Zeroes to End: https://www.geeksforgeeks.org/problems/move-all-zeroes-to-end-of-array0751/1 (Brute, Optimal)
+
+8. Linear Search: https://www.geeksforgeeks.org/problems/search-an-element-in-an-array-1587115621/1
+
+9. Union of 2 Sorted Arrays: https://www.geeksforgeeks.org/problems/union-of-two-sorted-arrays-1587115621/1 (Brute, Optimal)
+
+10. Intersection of two sorted arrays: https://www.geeksforgeeks.org/problems/intersection-of-two-sorted-array-1587115620/1
+
+11. Missing in Array: https://www.geeksforgeeks.org/problems/missing-number-in-array1416/1  (Brute, Optimal 1)
+        Brute failed due to time limit.
+                    : https://leetcode.com/problems/missing-number/ Question range (0, n) ->(Optimal 2 - Cyclic Sort) - TC: o(n) and SC: O(1)
+
+12. Max Consecutive Ones: https://leetcode.com/problems/max-consecutive-ones/
+
+13. Single Number: https://leetcode.com/problems/single-number/submissions/1815717041/
+
+14. Longest subarray with given sum K: https://www.geeksforgeeks.org/problems/longest-sub-array-with-sum-k0809/1 
+        Brute Force took O(n^2) TC, so Time limit exceeded.
+        Optimal -> TC: O(n)
+
+15. Longest subarray with given sum K(positives only): https://www.naukri.com/code360/problems/longest-subarray-with-sum-k_6682399
