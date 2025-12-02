@@ -1,0 +1,31 @@
+1. Two Sum: https://www.naukri.com/code360/problems/reading_6845742 (Type 1)
+          : https://leetcode.com/problems/two-sum/ (Type 2 - Brute, Optimal)
+
+2. Sort an array of 0's 1's and 2's: https://leetcode.com/problems/sort-colors/ (Both are optimal but DNF is single traversal method)
+
+3. Majority Element: https://www.geeksforgeeks.org/problems/majority-element-1587115620/1 (Brute, Better)
+      : https://leetcode.com/problems/majority-element/ (Optimal - Boyer–Moore Voting Algorithm)
+
+4. Kadane's Algorithm, maximum subarray sum: https://www.naukri.com/code360/problems/maximum-subarray-sum_630526 (Brute, Optimal)
+
+5. Rearrange Array Elements by Sign(equal number of positive and negative elements): https://www.naukri.com/code360/problems/alternate-positive-and-negative_893342
+      : (may or may not have the equal number of positive and negative integers) https://www.geeksforgeeks.org/problems/array-of-alternate-ve-and-ve-nos1401/1
+
+6. Best time to buy and sell stock: https://leetcode.com/problems/best-time-to-buy-and-sell-stock/ (Brute-time limit, Optimal)
+
+7. Leaders in array: https://www.geeksforgeeks.org/problems/leaders-in-an-array-1587115620/1 (Brute)
+      : https://www.naukri.com/code360/problems/leaders-in-an-array_873144 (Optimal)
+
+8. Next Permutation: https://youtu.be/JDOXKqF60RQ (Watch video)
+      : https://www.geeksforgeeks.org/problems/next-permutation5226/1
+
+9. Longest Consecutive Sequence: https://www.naukri.com/code360/problems/longest-consecutive-sequence_759408
+
+10. Set Matrix Zeros: https://www.geeksforgeeks.org/problems/set-matrix-zeroes/1 (Brute)
+      : https://leetcode.com/problems/set-matrix-zeroes/submissions/1821467238/ (Optimal)
+
+11. Rotate Image(matrix) by 90 degree: https://www.geeksforgeeks.org/problems/rotate-by-90-degree0356/1
+
+12. Spirally traversing a matrix: https://www.geeksforgeeks.org/problems/spirally-traversing-a-matrix-1587115621/1
+
+13. Count subarrays with given sum: https://www.geeksforgeeks.org/problems/subarrays-with-sum-k/1 (Brute, Optimal)

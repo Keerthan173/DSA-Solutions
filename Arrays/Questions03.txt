@@ -1,0 +1,26 @@
+1. Pascal's triangle: https://leetcode.com/problems/pascals-triangle/ (Type 1)
+      : https://leetcode.com/problems/pascals-triangle-ii/ (Type 2)
+
+2. N/3 majority: https://leetcode.com/problems/majority-element-ii/ (Brute, Optimal)
+
+3. Three sum: https://leetcode.com/problems/3sum/submissions/1837754982/ (Brute)
+      : https://leetcode.com/problems/3sum/submissions/1837760649/ (Optimal)
+
+4. Four sum: https://leetcode.com/problems/4sum/submissions/1838484434/
+
+5. Count Subarrays with given XOR: https://www.geeksforgeeks.org/problems/count-subarray-with-given-xor/1
+
+6. Merge overlapping sub intervals: https://leetcode.com/problems/merge-intervals/
+
+7. Merge two sorted arrays: https://www.geeksforgeeks.org/problems/merge-two-sorted-arrays-1587115620/1
+
+8. Missing And Repeating: https://www.geeksforgeeks.org/problems/find-missing-and-repeating2512/1 
+      Brute - (TC: O(n), but also SC: O(n)). Optimal - (TC: O(n) , SC: O(1))      [TYPE 1]
+      : https://leetcode.com/problems/find-missing-and-repeated-values/    [TYPE 2]
+
+9. Count Inversions: https://www.geeksforgeeks.org/problems/inversion-of-array-1587115620/1 (Brute - Time limit exceeded)
+            Optimal - Merge sort method
+
+10. Count Reverse Pairs: https://www.geeksforgeeks.org/problems/count-reverse-pairs/1
+
+11. Maximum Product Subarray: https://www.geeksforgeeks.org/problems/maximum-product-subarray3604/1
