@@ -1,0 +1,30 @@
+1. Swap 2 numbers without third variable: https://www.geeksforgeeks.org/problems/swap-two-numbers3844/1
+
+2. Find ith bit: https://www.geeksforgeeks.org/problems/check-whether-k-th-bit-is-set-or-not-1587115620/1 (refer notes)
+
+3. Even or Odd: https://www.geeksforgeeks.org/problems/odd-or-even3618/1 (refer notes)
+
+4. Set ith bit: https://www.geeksforgeeks.org/problems/set-kth-bit3724/1 (notes)
+
+5. Replace/reset ith bit: https://www.geeksforgeeks.org/problems/replace-the-bit3212/1
+
+6. Power of 2: https://www.geeksforgeeks.org/problems/power-of-2-1587115620/1
+
+7. Count of set bits: https://www.geeksforgeeks.org/problems/set-bits0143/1 (Brute)
+  : https://leetcode.com/problems/number-of-1-bits/ (Optimal)
+
+8. Minimum Bit Flips to Convert Number: https://leetcode.com/problems/minimum-bit-flips-to-convert-number/
+
+9. First Set Bit: https://www.geeksforgeeks.org/problems/find-first-set-bit-1587115620/1
+
+10. Power set / Return all subsets: https://leetcode.com/problems/subsets/
+
+11. Set the rightmost unset bit: https://www.geeksforgeeks.org/problems/set-the-rightmost-unset-bit4436/1 (Brute, Optimal)
+
+12. Find XOR of numbers from L to R: https://www.geeksforgeeks.org/problems/find-xor-of-numbers-from-l-to-r/1
+
+13. Single number 2: https://leetcode.com/problems/single-number-ii/submissions/
+
+14. Divide Two Integers: https://leetcode.com/problems/divide-two-integers/submissions/1846005538/
+
+15. Single number 3: https://leetcode.com/problems/single-number-iii (Brute)
